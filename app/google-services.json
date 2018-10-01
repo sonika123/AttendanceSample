@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "215879372158",
+    "firebase_url": "https://attendancesample-d2ddb.firebaseio.com",
+    "project_id": "attendancesample-d2ddb",
+    "storage_bucket": "attendancesample-d2ddb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:215879372158:android:fe0d8eefa2303b7a",
+        "android_client_info": {
+          "package_name": "com.example.sonika.attendancesample"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "215879372158-rqf3vshukdp3d9mtq5krk49j9iqt0p21.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.sonika.attendancesample",
+            "certificate_hash": "f73d63e258aa97c3ab12773bfb044312cf1e88fc"
+          }
+        },
+        {
+          "client_id": "215879372158-a57c1d7qdqmq3e7s7qljed70bke6p3m9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCOlh0IiPcvQaA1je6OthO33UXXnb3eFs4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "215879372158-a57c1d7qdqmq3e7s7qljed70bke6p3m9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
