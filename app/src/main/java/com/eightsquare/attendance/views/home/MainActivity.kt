@@ -1,8 +1,9 @@
-package com.eightsquare.attendance
+package com.eightsquare.attendance.views.home
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import com.eightsquare.attendance.views.LoginFragment
+import com.eightsquare.attendance.R
+import com.eightsquare.attendance.views.signin.LoginFragment
 
 
 class MainActivity : AppCompatActivity() {

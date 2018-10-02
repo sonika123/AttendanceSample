@@ -1,4 +1,4 @@
-package com.eightsquare.attendance.views
+package com.eightsquare.attendance.views.signin
 
 import android.os.Bundle
 import com.eightsquare.attendance.R
