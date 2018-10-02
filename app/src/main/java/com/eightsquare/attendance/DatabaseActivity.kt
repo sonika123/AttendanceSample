@@ -1,4 +1,4 @@
-package com.example.sonika.attendancesample
+package com.eightsquare.attendance
 
 import android.os.Bundle
 import android.util.Log
@@ -25,19 +25,18 @@ class DatabaseActivity : AppCompatActivity(), ValueEventListener {
     }
 
     override fun onCancelled(p0: DatabaseError) {
-        TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
     }
 
     override fun onDataChange(snapshot: DataSnapshot) {
-        var stringBuilder = StringBuilder()
-         for (datasnapshot in snapshot.children) {
-             val content = datasnapshot.getValue(String::class.java)
-                stringBuilder.append(content + "\n")
+        val stringBuilder = StringBuilder()
+        for (datasnapshot in snapshot.children) {
+            val content = datasnapshot.getValue(String::class.java)
+            stringBuilder.append(content + "\n")
 //             listDemo.add(User(name = content!!))
-             Log.e("sonikamaharjan", content)
+            Log.e("sonikamaharjan", content)
 
 
-    }
+        }
         et_database.setText(stringBuilder.toString())
 
     }

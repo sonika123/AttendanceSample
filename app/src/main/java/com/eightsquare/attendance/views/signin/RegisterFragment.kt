@@ -1,4 +1,4 @@
-package com.example.sonika.attendancesample.views
+package com.eightsquare.attendance.views.signin
 
 import android.content.Intent
 import android.os.Bundle
@@ -6,12 +6,11 @@ import android.text.TextUtils
 import android.view.View
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
-import com.example.sonika.attendancesample.DatabaseActivity
-import com.example.sonika.attendancesample.R
-import com.example.sonika.attendancesample.base.BaseFragment
+import com.eightsquare.attendance.DatabaseActivity
+import com.eightsquare.attendance.R
+import com.eightsquare.attendance.base.BaseFragment
 import com.google.firebase.auth.FirebaseAuth
 import kotlinx.android.synthetic.main.fragment_register.*
-
 
 class RegisterFragment : BaseFragment() {
 

@@ -1,11 +1,12 @@
-package com.example.sonika.attendancesample.base
+package com.eightsquare.attendance.base
 
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
-import com.example.sonika.attendancesample.R
+import com.eightsquare.attendance.R
+
 
 abstract class BaseFragment : Fragment() {
 
@@ -21,7 +22,7 @@ abstract class BaseFragment : Fragment() {
         val fragmentManager  = activity?.supportFragmentManager
         val fragmentTransaction = fragmentManager?.beginTransaction()
         fragmentTransaction?.replace(R.id.container, fragment)
-        fragmentTransaction?.isAddToBackStackAllowed
+        fragmentTransaction?.addToBackStack(null)
         fragmentTransaction?.commit()
     }
 }

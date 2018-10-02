@@ -1,8 +1,10 @@
-package com.example.sonika.attendancesample
+package com.eightsquare.attendance.views.home
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import com.example.sonika.attendancesample.views.LoginFragment
+import com.eightsquare.attendance.R
+
+import com.eightsquare.attendance.views.signin.LoginFragment
 
 
 class MainActivity : AppCompatActivity() {
@@ -14,7 +16,7 @@ class MainActivity : AppCompatActivity() {
         val fragmentManager  = this.supportFragmentManager
         val fragmentTransaction = fragmentManager.beginTransaction()
         fragmentTransaction.replace(R.id.container, LoginFragment())
-        fragmentTransaction.isAddToBackStackAllowed
+        fragmentTransaction.addToBackStack(null)
         fragmentTransaction.commit()
     }
 

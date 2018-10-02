@@ -1,4 +1,4 @@
-package com.example.sonika.attendancesample
+package com.eightsquare.attendance
 
 import org.junit.Test
 
