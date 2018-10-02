@@ -5,22 +5,31 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
-import com.eightsquare.attendance.R
+import butterknife.ButterKnife
 
 abstract class BaseFragment : Fragment() {
 
-    abstract var latoutInt : Int
+    abstract val layoutId: Int
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
-        val view = inflater.inflate(latoutInt, container, false)
+        val view= inflater.inflate(layoutId, container, false)
+        ButterKnife.bind(this, view)
         return view
     }
-
-    fun openFragment(fragment : Fragment)
-    {
-        val fragmentManager  = activity?.supportFragmentManager
-        val fragmentTransaction = fragmentManager?.beginTransaction()
-        fragmentTransaction?.replace(R.id.container, fragment)
-        fragmentTransaction?.commit()
+    fun openFragmentNoHistory(fragment: Fragment) {
+        (activity as BaseActivity).openFragmentNoHistory(fragment)
     }
+
+    fun openNoHistoryFragment(fragment: Fragment) {
+        (activity as BaseActivity).openNoHistoryFragment(fragment)
+    }
+
+    fun openFragment(fragment: Fragment) {
+        (activity as BaseActivity).openFragment(fragment)
+    }
+
+    fun addFragment(fragment: Fragment) {
+        (activity as BaseActivity).addFragment(fragment)
+    }
+
 }
