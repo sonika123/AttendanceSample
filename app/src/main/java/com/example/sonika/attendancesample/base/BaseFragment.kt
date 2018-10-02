@@ -21,6 +21,7 @@ abstract class BaseFragment : Fragment() {
         val fragmentManager  = activity?.supportFragmentManager
         val fragmentTransaction = fragmentManager?.beginTransaction()
         fragmentTransaction?.replace(R.id.container, fragment)
+        fragmentTransaction?.isAddToBackStackAllowed
         fragmentTransaction?.commit()
     }
 }

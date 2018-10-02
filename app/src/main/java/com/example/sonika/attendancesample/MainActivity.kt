@@ -14,6 +14,7 @@ class MainActivity : AppCompatActivity() {
         val fragmentManager  = this.supportFragmentManager
         val fragmentTransaction = fragmentManager.beginTransaction()
         fragmentTransaction.replace(R.id.container, LoginFragment())
+        fragmentTransaction.isAddToBackStackAllowed
         fragmentTransaction.commit()
     }
 
