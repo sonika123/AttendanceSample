@@ -2,6 +2,7 @@ package com.example.sonika.attendancesample
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
+import com.example.sonika.attendancesample.views.LoginFragment
 
 
 class MainActivity : AppCompatActivity() {

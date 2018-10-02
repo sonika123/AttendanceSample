@@ -1,8 +1,10 @@
-package com.example.sonika.attendancesample
+package com.example.sonika.attendancesample.views
 
 import android.content.Intent
 import android.os.Bundle
 import android.view.View
+import com.example.sonika.attendancesample.DatabaseActivity
+import com.example.sonika.attendancesample.R
 import com.example.sonika.attendancesample.base.BaseFragment
 import kotlinx.android.synthetic.main.fragment_login.*
 
@@ -17,5 +19,9 @@ class LoginFragment : BaseFragment() {
             val intent = Intent(context, DatabaseActivity::class.java)
             startActivity(intent)
         })
+
+        button_register.setOnClickListener {
+           openFragment(RegisterFragment())
+        }
     }
 }

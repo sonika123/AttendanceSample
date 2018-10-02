@@ -29,14 +29,16 @@ class DatabaseActivity : AppCompatActivity(), ValueEventListener {
     }
 
     override fun onDataChange(snapshot: DataSnapshot) {
+        var stringBuilder = StringBuilder()
          for (datasnapshot in snapshot.children) {
              val content = datasnapshot.getValue(String::class.java)
-
+                stringBuilder.append(content + "\n")
 //             listDemo.add(User(name = content!!))
              Log.e("sonikamaharjan", content)
 
 
     }
+        et_database.setText(stringBuilder.toString())
 
     }
 

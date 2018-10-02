@@ -5,9 +5,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
-import com.example.sonika.attendancesample.LoginFragment
 import com.example.sonika.attendancesample.R
-import java.util.zip.Inflater
 
 abstract class BaseFragment : Fragment() {
 
