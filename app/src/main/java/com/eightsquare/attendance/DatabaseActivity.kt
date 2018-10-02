@@ -1,4 +1,4 @@
-package com.example.sonika.attendancesample
+package com.eightsquare.attendance
 
 import android.os.Bundle
 import android.util.Log

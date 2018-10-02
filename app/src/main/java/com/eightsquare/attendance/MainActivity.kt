@@ -1,8 +1,8 @@
-package com.example.sonika.attendancesample
+package com.eightsquare.attendance
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import com.example.sonika.attendancesample.views.LoginFragment
+import com.eightsquare.attendance.views.LoginFragment
 
 
 class MainActivity : AppCompatActivity() {

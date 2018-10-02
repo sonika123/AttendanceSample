@@ -1,11 +1,11 @@
-package com.example.sonika.attendancesample.views
+package com.eightsquare.attendance.views
 
 import android.content.Intent
 import android.os.Bundle
 import android.view.View
-import com.example.sonika.attendancesample.DatabaseActivity
-import com.example.sonika.attendancesample.R
-import com.example.sonika.attendancesample.base.BaseFragment
+import com.eightsquare.attendance.DatabaseActivity
+import com.eightsquare.attendance.R
+import com.eightsquare.attendance.base.BaseFragment
 import kotlinx.android.synthetic.main.fragment_login.*
 
 class LoginFragment : BaseFragment() {

@@ -1,10 +1,10 @@
-package com.example.sonika.attendancesample
+package com.eightsquare.attendance
 
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.example.sonika.attendancesample.model.User
+import com.eightsquare.attendance.model.User
 import kotlinx.android.synthetic.main.list_row_item.view.*
 
 class MyAdapter(val items: List<User>) :

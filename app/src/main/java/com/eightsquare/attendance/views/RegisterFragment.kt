@@ -1,8 +1,8 @@
-package com.example.sonika.attendancesample.views
+package com.eightsquare.attendance.views
 
 import android.os.Bundle
-import com.example.sonika.attendancesample.R
-import com.example.sonika.attendancesample.base.BaseFragment
+import com.eightsquare.attendance.R
+import com.eightsquare.attendance.base.BaseFragment
 import com.google.firebase.auth.FirebaseAuth
 
 

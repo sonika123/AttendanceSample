@@ -1,4 +1,4 @@
-package com.example.sonika.attendancesample
+package com.eightsquare.attendance
 
 import androidx.test.InstrumentationRegistry
 import androidx.test.runner.AndroidJUnit4
